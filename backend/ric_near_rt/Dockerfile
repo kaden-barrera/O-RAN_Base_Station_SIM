@@ -1,0 +1,1 @@
+# Dockerfile for Near-Real-Time RAN Intelligent Controller microservice
