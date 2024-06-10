@@ -1,15 +1,25 @@
 {
   "name": "api_gateway",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "O-RAN Base Station Simulator API Gateway",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.19.2"
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jwt-simple": "^0.5.6",
+    "morgan": "^1.10.0",
+    "rate-limiter-flexible": "^2.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^26.6.3",
+    "jest-mock-axios": "^4.7.3",
+    "supertest": "^6.3.4"
   }
 }
