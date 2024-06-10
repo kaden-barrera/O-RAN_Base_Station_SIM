@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 exports.manageMobility = async (req, res, next) => {
     try {
         const response = await axios.post('http://distributed-unit:5000/manage_mobility', req.body);
