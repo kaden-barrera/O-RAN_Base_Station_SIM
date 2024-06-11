@@ -16,7 +16,7 @@ The O-RAN Base Station Simulator is a comprehensive tool designed to simulate Op
 
 ## Quick Start Guide
 1. Clone the Repository:
-   git clone https://github.com/yourusername/O-RAN_Base_Station_SIM.git
+   git clone https://github.com/kaden-barrera/O-RAN_Base_Station_SIM.git
 2. Navigate to the Project Directory:
    cd O-RAN_Base_Station_SIM
 3. Install Dependencies:
