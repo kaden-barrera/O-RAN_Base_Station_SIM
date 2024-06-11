@@ -13,4 +13,4 @@ def manage_resources():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5006)
+    app.run(host='0.0.0.0', port=5003)

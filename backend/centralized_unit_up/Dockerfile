@@ -1,17 +1,18 @@
-# Use a base image with the desired operating system and runtime environment
-FROM python:3.8
+# Use the official Python image from the Docker Hub
+FROM python:3.8-slim
 
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the necessary files into the container
-COPY cu_up.py .
+# Install necessary dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-# Install any required Python packages
-RUN pip install some-package another-package
+# Copy the rest of the application code
+COPY . .
 
-# Expose any ports needed for communication (if applicable)
-# EXPOSE 8080
+# Expose the port the app runs on
+EXPOSE 5001
 
-# Command to run the microservice when the container starts
+# Run the application
 CMD ["python", "cu_up.py"]

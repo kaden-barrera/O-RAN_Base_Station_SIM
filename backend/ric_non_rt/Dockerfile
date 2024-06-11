@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 5006
+EXPOSE 5003
 
 # Run the application
 CMD ["python", "ric_non_rt.py"]

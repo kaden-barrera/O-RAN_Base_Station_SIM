@@ -1,6 +1,3 @@
-# Source code for Centralized Unit Control Plane microservice (Python)
-
-# centralized_unit_cp/cu_cp.py
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)

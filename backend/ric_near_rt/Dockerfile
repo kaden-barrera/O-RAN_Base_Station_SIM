@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 5005
+EXPOSE 5002
 
 # Run the application
 CMD ["python", "ric_near_rt.py"]
