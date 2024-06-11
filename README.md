@@ -39,7 +39,7 @@ The O-RAN Base Station Simulator is a comprehensive tool designed to simulate Op
    ```bash
    git clone https://github.com/yourusername/O-RAN_Base_Station_SIM.git
 
-# Microservices
+# The O-RAN Microservices
 ### 1. Centralized Unit Control Plane (CU-CP)
 - Path: backend/centralized_unit_cp
 - Description: Manages control plane functionalities.
