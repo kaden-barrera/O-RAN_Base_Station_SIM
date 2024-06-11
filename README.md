@@ -61,7 +61,6 @@ The O-RAN Base Station Simulator is a comprehensive tool designed to simulate Op
 - Description: Manages long-term network optimization, policy control, and data analytics.
 - Endpoint: /non_rt_function
 - Port: 5003
-- Documentation: RIC Non-RT Documentation
 ### 5. Radio Unit (RU)
 - Path: backend/radio_unit
 - Description: Processes radio signals.
