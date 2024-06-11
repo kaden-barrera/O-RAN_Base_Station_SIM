@@ -41,17 +41,17 @@ The O-RAN Base Station Simulator is a comprehensive tool designed to simulate Op
 
 # Microservices
 ### 1. Centralized Unit Control Plane (CU-CP)
-Path: backend/centralized_unit_cp
-Description: Manages control plane functionalities.
-Endpoint: /setup_connection
-Port: 5000
-Documentation: CU-CP Documentation
+- Path: backend/centralized_unit_cp
+- Description: Manages control plane functionalities.
+- Endpoint: /setup_connection
+- Port: 5000
+- Documentation: CU-CP Documentation
 ### 2. Centralized Unit User Plane (CU-UP)
-Path: backend/centralized_unit_up
-Description: Manages user plane functionalities.
-Endpoint: /manage_data
-Port: 5001
-Documentation: CU-UP Documentation
+- Path: backend/centralized_unit_up
+- Description: Manages user plane functionalities.
+- Endpoint: /manage_data
+- Port: 5001
+- Documentation: CU-UP Documentation
 ### 3. Radio Unit (RU)
 Path: backend/radio_unit
 Description: Processes radio signals.
