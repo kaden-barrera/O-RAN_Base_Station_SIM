@@ -1,2 +1,4 @@
 Flask
 flask-cors
+psycopg2-binary
+sqlalchemy
